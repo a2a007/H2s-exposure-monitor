@@ -1,0 +1,2 @@
+Timestamp,H2S_Concentration_ppm,Exposure_Duration_hr,Shift_Exposure_ppm_hr,TWA_8hr_ppm,Alert_Level,Alert_Messages
+2026-09-19 03:06:48,167.3245,1.0,167.3245,20.9156,CRITICAL,H2S concentration 167.32 ppm is at or above the 100 ppm IDLH reference. | H2S concentration 167.32 ppm exceeds the 20 ppm ceiling criterion. | H2S concentration 167.32 ppm exceeds the 50 ppm peak criterion. | Exposure above 50 ppm exceeded 10 minutes.

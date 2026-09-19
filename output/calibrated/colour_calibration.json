@@ -1,0 +1,66 @@
+{
+    "method": "5-point affine BGR colour calibration",
+    "reference_order": [
+        "reference_purple",
+        "reference_amber",
+        "reference_yellow",
+        "reference_white",
+        "reference_gray"
+    ],
+    "target_colors_BGR": {
+        "reference_purple": [
+            105.0,
+            20.0,
+            115.0
+        ],
+        "reference_amber": [
+            60.0,
+            90.0,
+            210.0
+        ],
+        "reference_yellow": [
+            20.0,
+            210.0,
+            245.0
+        ],
+        "reference_white": [
+            245.0,
+            245.0,
+            245.0
+        ],
+        "reference_gray": [
+            125.0,
+            125.0,
+            125.0
+        ]
+    },
+    "calibration_matrix": [
+        [
+            0.8552962367610699,
+            0.0015885070086424356,
+            0.031235193654055207
+        ],
+        [
+            0.3980470231364307,
+            0.8753313776925837,
+            -0.012195128801495647
+        ],
+        [
+            -0.4176677427791966,
+            0.15241782243665436,
+            0.878972085229909
+        ],
+        [
+            37.12143613168882,
+            -2.819092064313184,
+            25.101805567419824
+        ]
+    ],
+    "reference_errors": {
+        "reference_purple": 13.19083540045937,
+        "reference_amber": 8.096888909876228,
+        "reference_yellow": 4.100612545253125,
+        "reference_white": 4.192107349805376,
+        "reference_gray": 13.386666385641496
+    }
+}
